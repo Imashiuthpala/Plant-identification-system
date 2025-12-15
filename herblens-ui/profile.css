@@ -1,0 +1,140 @@
+/* =========================
+   Global Styles
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #faf8f4;
+    color: #333;
+}
+
+/* =========================
+   Page Layout
+========================= */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* =========================
+   Profile Card
+========================= */
+.profile-card {
+    width: 100%;
+    max-width: 420px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+/* =========================
+   Header Section
+========================= */
+.profile-header {
+    background-color: #e1f3e6;
+    text-align: center;
+    padding: 36px 20px;
+}
+
+.profile-name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #2f7a4f;
+}
+
+.profile-role {
+    font-size: 14px;
+    color: #555;
+}
+
+/* =========================
+   Body Section
+========================= */
+.profile-body {
+    padding: 25px;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2f7a4f;
+    margin-bottom: 6px;
+}
+
+.section-text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* =========================
+   Skills
+========================= */
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    background-color: #c8e8d1;
+    color: #2f7a4f;
+    padding: 6px 12px;
+    border-radius: 18px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* =========================
+   Actions
+========================= */
+.profile-actions {
+    display: flex;
+    gap: 12px;
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
+
+.btn-primary {
+    flex: 1;
+    background-color: #3f9b5f;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #357f4e;
+}
+
+.btn-secondary {
+    flex: 1;
+    background-color: #ffffff;
+    border: 2px solid #3f9b5f;
+    border-radius: 8px;
+    padding: 12px;
+    color: #3f9b5f;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #f1fbf4;
+}

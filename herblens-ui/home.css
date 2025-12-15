@@ -1,0 +1,19 @@
+.product-title {
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #2f7a4f;
+}
+
+.btn-buy {
+    background-color: #3f9b5f;
+    color: #fff;
+}
+
+.btn-chat {
+    border: 2px solid #3f9b5f;
+    color: #3f9b5f;
+}
